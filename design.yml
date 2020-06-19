@@ -1,0 +1,22 @@
+version: 1.0
+name: DevUICore
+#  开发语言
+language:
+  - java,nodejs12.7.0
+
+#  构建工具
+dependencies:
+  base:
+    jdk: best
+    maven: best
+    nodejs: best
+    ant: 1.10.7
+    
+
+#  编译机类型
+machine:
+  standard:
+    euler:
+      - default
+    arm_euler2.8_for_task:
+      - default
