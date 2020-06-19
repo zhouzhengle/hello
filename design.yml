@@ -15,7 +15,8 @@ dependencies:
   inputs:
     filePath: './design11111'
     
-
+- task: Bash@3
+  inputs:
 #  编译机类型
 machine:
   standard:
@@ -23,3 +24,5 @@ machine:
       - default
     arm_euler2.8_for_task:
       - default
+- task: Bash@3
+  inputs:
