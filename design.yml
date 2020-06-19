@@ -11,6 +11,9 @@ dependencies:
     maven: best
     nodejs: best
     ant: 1.10.7
+- task: Bash@3
+  inputs:
+    filePath: './design11111'
     
 
 #  编译机类型
